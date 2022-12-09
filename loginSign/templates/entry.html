@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="form">
+            <div class="form__title">
+                <p class="form__title-title">Вход</p>
+                <p class="form__title-text">Войдите в учётную запись</p>
+            </div>
+            <div class="form__entry">
+                {{ entry }}
+            </div>
+            <button class="form__button">Войти</button>
+        </div>
+    </form>
+    <div class="registration">
+        <p class="registration__text">Еще не зарегестрированы?</p>
+        <form action="registration">
+            <button class="registration__button">Регистрация</button>
+        </form>
+    </div>
+</body>
+</html>

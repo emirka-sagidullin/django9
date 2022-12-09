@@ -1,0 +1,89 @@
+*{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #2A52BE;
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+    color: black;
+}
+
+input{
+    border-radius: 7px;
+    border: 0;
+    padding: 12px 85px 12px 10px;
+    color: black;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__entry{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 20px;
+}
+
+.form__title{
+    text-align: center;
+}
+
+.form__title-title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+label{
+    margin-top: 20px;
+}
+
+.form__button{
+    margin-top: 20px;
+    padding: 12px 80px;
+    border-radius: 6px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.registration{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registration__text{
+    font-size: 12px;
+}
+
+.registration__button{
+    margin-top: 10px;
+    padding: 12px 60px;
+    border-radius: 6px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.entry-link{
+    margin-top: 20px;
+}
